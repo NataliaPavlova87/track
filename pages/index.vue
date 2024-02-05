@@ -1,11 +1,9 @@
 <template>
-    <div>My page</div>
+    <Header />
 </template>
 
 <script lang="ts" setup>
-export default {
-    name: "index"
-}
+    import Header from '@components/header/Header.vue'
 </script>
 
 <style scoped lang="scss">
