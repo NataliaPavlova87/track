@@ -8,7 +8,13 @@ export default async () => defineNuxtConfig({
         '@app': await resolvePath('./src'),
         '@components': await resolvePath('./src/components')
     },
+    postcss: {
+        plugins: {
+            tailwindcss: {},
+            autoprefixer: {}
+        }
+    },
     css: [
-        '~/assets/styles/main.scss'
+        '~/assets/styles/main.css'
     ]
 })
