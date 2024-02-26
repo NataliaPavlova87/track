@@ -8,9 +8,6 @@ export default async () => defineNuxtConfig({
         '@app': await resolvePath('./src'),
         '@components': await resolvePath('./src/components')
     },
-    modules: [
-        '@nuxt/image'
-    ],
     css: [
         '~/assets/styles/main.scss'
     ]

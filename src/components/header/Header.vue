@@ -1,8 +1,7 @@
 <template>
     <header class="header">
         <img src="~assets/images/logo.jpg" alt="" class="header__logo header-logo">
-        <NuxtImg src="~assets/images/logo.jpg" loading="lazy" />
-        <Progress />
+        <Progress class="header__progress" />
     </header>
 </template>
 <script setup lang="ts">

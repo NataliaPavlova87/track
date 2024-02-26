@@ -1,0 +1,23 @@
+.progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  &__text {
+    font-size: 18px;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    fill: #228B22;
+  }
+
+  &__error {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #FF6347;
+  }
+}
