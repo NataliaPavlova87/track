@@ -1,5 +1,7 @@
 <template>
-    <div>Timeline</div>
+    <NuxtLayout>
+        <NuxtPage />
+    </NuxtLayout>
 </template>
 
 <script lang="ts" setup>
