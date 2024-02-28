@@ -14,10 +14,10 @@
 </template>
 
 <script setup lang="ts">
-    import type { MenuItem } from '@components/menu/interfaces/menuItem'
+    import type { MenuItemData } from '@components/menu/interfaces/menuItem'
 
     interface Props {
-        item: MenuItem
+        item: MenuItemData
     }
     const props = defineProps<Props>()
 

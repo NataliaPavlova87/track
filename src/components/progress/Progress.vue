@@ -1,5 +1,6 @@
 <template>
-    <div class="flex items-center">
+    <div class="flex items-center relative">
+        <NuxtLink to="progress" class="w-full h-full absolute top-0 left-0 z-10" />
         <template v-if="true">
             <p class="pr-1">
                 Day complete!
