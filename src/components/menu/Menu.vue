@@ -1,5 +1,5 @@
 <template>
-    <nav class="border-t-2 ring-offset-gray-500">
+    <nav class="border-t-2 ring-offset-gray-500 bg-white">
         <ul class="flex">
             <MenuItem
                 v-for="(item, itemIndex) in MENU_ITEMS"
